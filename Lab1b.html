@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+</head>
+<body>
+
+<h3>HTML 5 color Element</h3>
+<form>
+    Select your favorite color:
+    <input type="color">
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<h3>HTML 5 input restriction as number</h3>
+<form>
+    Quantity (between 1 and 5):
+    <input type="number" min="1" max="5" value="5">
+    <input type="submit" value="Send">
+</form>
+
+<hr>
+
+<h3>HTML 5 data Encryption</h3>
+<form>
+    Username:
+    <input type="text" value="admin">
+    Encryption:
+    <select>
+        <option>1024 (Medium Grade)</option>
+        <option selected>2048 (High Grade)</option>
+        <option>4096 (Very High Grade)</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<h3>HTML 5 date picker</h3>
+<form>
+    Birthday:
+    <input type="date">
+    <input type="submit" value="Send">
+</form>
+
+<hr>
+
+<h3>HTML 5 Audio Element</h3>
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<hr>
+
+<h3>HTML 5 CANVAS (graphics and text)</h3>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid black;">
+    Your browser does not support the canvas tag.
+</canvas>
+
+<script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.font = "25px Calibri";
+    ctx.fillText("Hello World", 40, 80);
+</script>
+
+</body>
+</html>
