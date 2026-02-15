@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Common Navbar Style */
+.navbar{
+    margin: 25px 0;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li{
+    padding: 14px 25px;
+    color: white;
+    background-color: #0b0f1a;   /* Dark Navy */
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.3s;
+    border-right: 1px solid #1f2937;
+    cursor: pointer;
+}
+
+
+
+
+/* ------------------ */
+/* 1️⃣ Simple Menu */
+.menu1 li:hover{
+    background-color: #111827;
+}
+
+/* ------------------ */
+/* 2️⃣ Font Size Change */
+.menu2 li:hover{
+    font-size: 18px;
+    background-color: red;
+}
+
+/* ------------------ */
+/* 3️⃣ Background + Border */
+.menu3 li:hover{
+    background-color: #e53935;   /* Red */
+    border-bottom: 4px solid white;
+}
+
+/* ------------------ */
+/* 4️⃣ Active Tab */
+.menu4 li.active{
+    background-color: #e53935;   /* Red Active */
+}
+
+.menu4 li:hover{
+    background-color: #e53935;
+}
+
+/* ------------------ */
+/* 5️⃣ Responsive Menu */
+.menu5 li:hover{
+    background-color: #16a34a;  /* Green hover */
+}
+
+/* Responsive */
+@media (max-width: 600px){
+    .menu5 ul{
+        flex-direction: column;
+    }
+}

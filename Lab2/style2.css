@@ -1,0 +1,45 @@
+p{
+    font-size: 5rem;
+    color: blue
+}
+
+#first_para{
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.second_para{
+    color: red;
+
+}
+
+.double_class{
+    color: purple;
+}   
+
+h2,h3,h4{
+    color: orange;
+    text-align: center;
+}
+
+.Bluebox{
+    background-color: blue;
+}
+.diff{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+/* padding border margin outline*/
+
+.Redbox{
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    background-color: skyblue;
+    padding: 15px 15px 15px 15px;
+    border: 5px double;
+    margin: 15px;
+    outline: 5px solid red;
+}
