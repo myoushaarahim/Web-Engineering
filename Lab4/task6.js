@@ -19,7 +19,7 @@ let reg = prompt("Enter Registration Number:");
     else if (percentage >= 50) grade = "D";
     else grade = "F";
 
-    // Writing table using document.write()
+
     document.write("<h2>Student Grade Sheet</h2>");
     document.write("<table border='1' cellpadding='8'>");
 
