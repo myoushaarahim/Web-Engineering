@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Form (JavaScript Validation)</title>
+    <script src="Lab5c.js" defer></script>
+    <style>
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Sign Up Form (JavaScript Validation)</h2>
+
+<form id="signupForm">
+
+    Name:
+    <input type="text" id="name">
+    <span class="error" id="nameError"></span>
+    <br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <span class="error" id="genderError"></span>
+    <br><br>
+
+    Email:
+    <input type="text" id="email">
+    <span class="error" id="emailError"></span>
+    <br><br>
+
+    Address:
+    <textarea id="address"></textarea>
+    <span class="error" id="addressError"></span>
+    <br><br>
+
+    Login ID:
+    <input type="text" id="login">
+    <span class="error" id="loginError"></span>
+    <br><br>
+
+    Password:
+    <input type="password" id="password">
+    <span class="error" id="passwordError"></span>
+    <br><br>
+
+    <input type="checkbox" id="policy"> Agree with Policy
+    <span class="error" id="policyError"></span>
+    <br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
